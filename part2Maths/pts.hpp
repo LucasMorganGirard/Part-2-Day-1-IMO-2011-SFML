@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <cmath>
 #include "SFML/Graphics.hpp"
+#include "SFML/Audio.hpp"
 #include "line.hpp"
 
 typedef struct pt{
@@ -36,6 +37,8 @@ class pts{
     sf::RenderWindow& mWin;
     line& mLine;
     sf::Font mFont;
+    sf::SoundBuffer mBuffer;
+    sf::Sound mSound;
     
 public:
     pts(sf::RenderWindow& win, line& line);

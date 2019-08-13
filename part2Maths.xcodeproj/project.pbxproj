@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1AE2D3423026641007672B2 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1AE2D3323026641007672B2 /* click.wav */; };
 		E1C35C13230175D70004957F /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1C35C12230175D70004957F /* ResourcePath.mm */; };
 		E1C35C16230175D70004957F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1C35C15230175D70004957F /* main.cpp */; };
-		E1C35C19230175D70004957F /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1C35C18230175D70004957F /* cute_image.jpg */; };
-		E1C35C1B230175D70004957F /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E1C35C1A230175D70004957F /* nice_music.ogg */; };
 		E1C35C1D230175D70004957F /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C35C1C230175D70004957F /* sansation.ttf */; };
 		E1C35C1F230175D70004957F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C35C1E230175D70004957F /* icon.png */; };
 		E1C35C27230176580004957F /* line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1C35C25230176580004957F /* line.cpp */; };
@@ -18,13 +17,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1AE2D3323026641007672B2 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		E1C35C0D230175D70004957F /* part2Maths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = part2Maths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C35C11230175D70004957F /* part2Maths-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "part2Maths-Info.plist"; sourceTree = "<group>"; };
 		E1C35C12230175D70004957F /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		E1C35C14230175D70004957F /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		E1C35C15230175D70004957F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E1C35C18230175D70004957F /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		E1C35C1A230175D70004957F /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		E1C35C1C230175D70004957F /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		E1C35C1E230175D70004957F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		E1C35C25230176580004957F /* line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = line.cpp; sourceTree = "<group>"; };
@@ -87,9 +85,8 @@
 		E1C35C17230175D70004957F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E1C35C18230175D70004957F /* cute_image.jpg */,
-				E1C35C1A230175D70004957F /* nice_music.ogg */,
 				E1C35C1C230175D70004957F /* sansation.ttf */,
+				E1AE2D3323026641007672B2 /* click.wav */,
 				E1C35C1E230175D70004957F /* icon.png */,
 			);
 			name = Resources;
@@ -154,8 +151,7 @@
 			files = (
 				E1C35C1F230175D70004957F /* icon.png in Resources */,
 				E1C35C1D230175D70004957F /* sansation.ttf in Resources */,
-				E1C35C1B230175D70004957F /* nice_music.ogg in Resources */,
-				E1C35C19230175D70004957F /* cute_image.jpg in Resources */,
+				E1AE2D3423026641007672B2 /* click.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

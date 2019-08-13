@@ -5,6 +5,10 @@ pts::pts(sf::RenderWindow& win, line& line): mWin(win), mLine(line){
     if(!mFont.loadFromFile(resourcePath() + "sansation.ttf")){
         return EXIT_FAILURE;
     }
+    if(!mBuffer.loadFromFile(resourcePath() + "click.wav")){
+        return EXIT_FAILURE;
+    }
+    mSound.setBuffer(mBuffer);
 }
 
 void pts::drawPts(){
@@ -22,6 +26,7 @@ void pts::drawPts(){
             c.setRadius(8);
         }else if (distance < 3){
             if(point.mSelectable == true){
+                mSound.play();
                 mLine.setStartingPt((sf::Vector2f)point.mXy);
                 point.mSelectable = false;
                 point.plusOne();
